@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/shop.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Grey+Qo&family=Lugrasimo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="https://kit.fontawesome.com/91eada0414.js"></script>
+    <link rel="shortcut icon" type="image/x-icon" href="../images/favicon.ico">
+    <title>FloSun - Flowers shop</title>
+</head>
+<body>
+    <!-- header -->
+    <nav>
+        <a href="#" class="logo"><b>Flo<span>Sun</span></b></a>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../Shop/shop.html">Shop</a></li>
+            <li><a href="../Blog/blog.html">Blog</a></li>
+            <li><a href="../AboutUs/about.html">About Us</a></li>
+            <li><a href="../ContactUs/contact.html">Contact Us</a></li>
+        </ul>
+        <div class="icons">
+            <a href="#" class="fa-solid fa-cart-shopping" onclick="toggleMenu()"></a>
+
+            <div class="sub-menu-wrap" id="subMenu">
+                <div class="sub-menu">
+                    <div class="user-info">
+                        <img src="../images/f5.jpg">
+                        <a>Odio tortor consequat</a><br>
+                        <div class="kk"><p>1* <span>$98.00</span></p></div>
+
+                    </div>
+                    <div class="user-info">
+                        <img src="../images/f1.jpg">
+                        <a>Odio tortor consequat</a><br>
+                        <div class="kk"><p>1* <span>$98.00</span></p></div>
+
+                    </div>
+                    <div class="user-info">
+                        <img src="../images/f9.jpg">
+                        <a>Odio tortor consequat</a><br>
+                        <div class="kk"><p>1* <span>$98.00</span></p></div>
+
+                    </div>
+                    <hr>
+                    <p class="T"> Total: </p>
+                    <p class="price"> $166.00</p>
+                    <hr>
+
+                <div class="save">
+                    <!-- <div class="button-zainab-1" > -->
+                    <button type="submit" class="button-zainab-1">View cart</button>
+                    
+                    <!-- </div> -->
+                    <!-- <div class="button-zainab-2"> -->
+                        <button type="submit" class="button-zainab-2">Checkout</button>
+                    <!-- </div> -->
+                </div>
+
+                </div>
+
+            </div>
+
+            
+            <a href="#" class="fa-solid fa-user links">
+                <ul class="registeration">
+                    <li onclick="window.location.href ='../Register/register.html'">Register</li>
+                    <li onclick="window.location.href ='../Login/login.html'">Login</li>
+                </ul>
+            </a>
+            <a href="#" class="fa-solid fa-bars"></a>
+        </div>
+    </nav>
+    
+    <section class="sec">
+        <div><img src="../images/breadcrumb.jpg"></div>
+        <div class="content">
+            <div class="log" style="font-family: 'Great Vibes', cursive">Shop</div>
+            <p><a href="#">Home > </a>Shop</p>
+        </div>
+        
+    </section>
+
+    <!-- first toolbar -->
+    <div class="filter">
+        <div class="filter-container">
+            <div class="lists">
+                <button class="list">
+                    <i class="fa fa-th fa-xl "  class="list-element"></i>
+                </button>
+                <button class="list">
+                    <i class="fa fa-th-large fa-xl" style="color: #000000;" class="list-element"></i>                
+                </button>
+                <button class="list">
+                    <i class="fa-solid fa-list fa-xl" style="color: #000000;" class="list-element"></i>
+                </button>
+            </div>
+            <div class="filterization">
+                <select name="filterization-list" class="filterization-list">
+                    <option value="alphabet" class="sel">Alphabetically,A-Z</option>
+                    <option value="popular" class="sel">Sort by popularity</option>
+                    <option value="new" class="sel">Sort by newness</option>
+                    <option value="price" class="sel">Sort by price</option>
+                    
+                </select>
+            </div>
+        </div>
+    </div>
+    <!-- cards -->
+    <div class="products">    
+        <div id="product-container"></div>
+    </div>
+
+    <div class="bottom-toolbar">
+        <div class="bottom-toolbar-container">
+            <div class="pagination">
+                <ul>
+                    <li class="current"><a href="#">1</a></li>
+                    <li class="not-current"><a href="#">2</a></li>
+                    <li class="not-current"><a href="#">3</a></li>
+                    <li class="next not-current"><a href="#">next</a></li>
+                    <li class="not-current"><a href="#">>></a></li>   
+                </ul>
+            </div>
+            <p class="bottom-toolbar-text">showing 1 - 12 of 34 result</p>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-1">
+                    <h1>FloSun</h1>
+                    <p>Lorem Khaled Ipsum is a major key to success. To be successful you’ve got to work hard you’ve got to make it.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#"><i class="fa-brands fa-vimeo-v"></i></a>
+                    </div>
+                </div>
+                <div class="col-1">
+                    <h4>Information</h4>
+                    <ul>
+                        <li><a href="#">Our Company</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Our servise</a></li>
+                        <li><a href="#">Why we?</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="col-1">
+                    <h4>Quicklink</h4>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="#">Cart</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-1">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Online Support</a></li>
+                        <li><a href="#">Shipping Policy</a></li>
+                        <li><a href="#">Return Policy</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div class="col-1">
+                    <h4>See Information</h4>
+                    <div>123, ABC, Road ##, Main City, Your address goes here.</div>
+                    <p>Phone: 01234 567 890</p>
+                    <p>Email: https://example.com</p>
+                </div>
+               
+            </div>
+        </div>
+        <side>
+            <div>Copyright <i class="fa-regular fa-copyright"></i> 2021 <a href="#">HasThemes</a>| Built with FloSun by <a href="#">HasThemes</a>.</div>
+        </side>
+    </footer>
+
+    <script src="shop.js"></script>
+    <script>
+    let subMenu=document.getElementById("subMenu");
+    function toggleMenu(){
+        subMenu.classList.toggle("open-menu");
+    }
+</script>
+<script src="ajaxAddToCart.js"></script>
+<script src="ajaxShop.js"></script>
+</body>
+</html>

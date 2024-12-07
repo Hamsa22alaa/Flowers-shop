@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="image/x-icon" href="../images/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FloSun - Flowers shop</title>
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../css/register.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Grey+Qo&family=Lugrasimo&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/91eada0414.js"></script>
+    <!-- JQuery for sharing same header and footer -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+    
+</script>
+</head>
+<body>
+     <!-- header -->
+     <nav>
+        <a href="#" class="logo"><b>Flo<span>Sun</span></b></a>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../Shop/shop.html">Shop</a></li>
+            <li><a href="../Blog/blog.html">Blog</a></li>
+            <li><a href="../AboutUs/about.html">About Us</a></li>
+            <li><a href="../ContactUs/contact.html">Contact Us</a></li>
+        </ul>
+        <div class="icons">
+             <a href="#" class="fa-solid fa-cart-shopping" onclick="toggleMenu()"></a>
+
+            <div class="sub-menu-wrap" id="subMenu">
+                <div class="sub-menu">
+                    <div class="user-info">
+                        <img src="../images/f5.jpg">
+                        <a>Odio tortor consequat</a><br>
+                        <div class="kk"><p>1* <span>$98.00</span></p></div>
+
+                    </div>
+                    <div class="user-info">
+                        <img src="../images/f1.jpg">
+                        <a>Odio tortor consequat</a><br>
+                        <div class="kk"><p>1* <span>$98.00</span></p></div>
+
+                    </div>
+                    <div class="user-info">
+                        <img src="../images/f9.jpg">
+                        <a>Odio tortor consequat</a><br>
+                        <div class="kk"><p>1* <span>$98.00</span></p></div>
+
+                    </div>
+                    <hr>
+                    <p class="T"> Total: </p>
+                    <p class="price"> $166.00</p>
+                    <hr>
+
+                    <div class="save">
+                        <!-- <div class="button-zainab-1" > -->
+                        <button type="submit" class="button-zainab-1">View cart</button>
+                        
+                        <!-- </div> -->
+                        <!-- <div class="button-zainab-2"> -->
+                            <button type="submit" class="button-zainab-2">Checkout</button>
+                        <!-- </div> -->
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+
+
+            <a href="#" class="fa-solid fa-user links">
+                <ul class="registeration">
+                    <li onclick="window.location.href ='../Register/register.html'">Register</li>
+                    <li onclick="window.location.href ='../Login/login.html'">Login</li>
+                </ul>
+            </a>
+            <a href="#" class="fa-solid fa-bars"></a>
+        </div>
+    </nav>
+    <!-- <div id="header"></div> -->
+    <section class="sec">
+        <div><img src="../images/breadcrumb.jpg"></div>
+        <div class="content">
+            <div class="log" style="font-family: 'Great Vibes', cursive">login-Register</div>
+            <p><a href="#">Home > </a>Login-Register</p>
+        </div>
+        
+    </section>
+
+    <!-- <div class="Login">
+        <h2>Login</h2>
+        <p>Please login using account detail bellow.</p>
+        <form>
+            <input type="email" placeholder="Enter your email">
+            <input type="password" placeholder="Enter your password">
+
+            <div class="option">
+                <label>
+                    <input type="checkbox">Remember me
+                </label>
+                <a href="#">Forget Password?</a>
+            </div>
+            
+            <button type="submit"> Login</button> <br><br>
+            <a class="Create" href="../Register/register.html">Create Account</a>
+        </form>
+        
+    </div> -->
+
+    <div class="Login">
+        <div class="container">
+            <h2> Log in to your account </h2>
+            <p>Please LogIn using account details bellow.</p>
+            <form id="register-form" >
+                <div class="div-1">
+                    <label for="email">Email</label><br>
+                    <input type="email" id="email" name="email" placeholder="Email">
+                </div>
+                <div class="div-1">
+                    <label for="password">Password</label><br>
+                    <input type="password" id="password" name="password" placeholder="password" >
+                </div>
+
+                <input type="submit" value="Log in">
+            </form>
+
+            <p class="p2"> Do you have an account ? </p>
+            <a class="Create" href="../Register/register.html"> Register </a>
+        </div>
+    </div>
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-1">
+                    <h1>FloSun</h1>
+                    <p>Lorem Khaled Ipsum is a major key to success. To be successful you’ve got to work hard you’ve got to make it.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#"><i class="fa-brands fa-vimeo-v"></i></a>
+                    </div>
+                </div>
+                <div class="col-1">
+                    <h4>Information</h4>
+                    <ul>
+                        <li><a href="#">Our Company</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Our servise</a></li>
+                        <li><a href="#">Why we?</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="col-1">
+                    <h4>Quicklink</h4>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="#">Cart</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-1">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Online Support</a></li>
+                        <li><a href="#">Shipping Policy</a></li>
+                        <li><a href="#">Return Policy</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div class="col-1">
+                    <h4>See Information</h4>
+                    <div>123, ABC, Road ##, Main City, Your address goes here.</div>
+                    <p>Phone: 01234 567 890</p>
+                    <p>Email: https://example.com</p>
+                </div>
+               
+            </div>
+        </div>
+        <side>
+            <div>Copyright <i class="fa-regular fa-copyright"></i> 2021 <a href="#">HasThemes</a>| Built with FloSun by <a href="#">HasThemes</a>.</div>
+        </side>
+    </footer>
+    <script>
+    let subMenu=document.getElementById("subMenu");
+    function toggleMenu(){
+        subMenu.classList.toggle("open-menu");
+    }
+
+    </script>
+    <script src="login.js"></script>
+</body>
+</html>

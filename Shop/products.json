@@ -1,0 +1,124 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "image": "../images/f5.jpg",
+      "name": "Flower Daisy Pink Stick",
+      "rating": 3.5,
+      "price": 60.00,
+      "oldPrice": 70.00,
+      "onSale": true,
+      "addToCartLink": "./addToCard.html"
+    },
+    {
+      "id": 2,
+      "image": "../images/f2.jpg",
+      "name": "Flower Rose Red",
+      "rating": 4.0,
+      "price": 80.00,
+      "oldPrice": 90.00,
+      "onSale": false,
+      "addToCartLink": "./addToCard.html"
+    },
+    {
+      "id": 3,
+      "image": "../images/f3.jpg",
+      "name": "Flower Tulip White",
+      "rating": 5.0,
+      "price": 50.00,
+      "oldPrice": 60.00,
+      "onSale": true,
+      "addToCartLink": "./addToCard.html"
+    },
+    {
+      "id": 4,
+      "image": "../images/f4.jpg",
+      "name": "Flower Lily Yellow",
+      "rating": 4.5,
+      "price": 45.00,
+      "oldPrice": 55.00,
+      "onSale": false,
+      "addToCartLink": "./addToCard.html"
+    },
+    {
+      "id": 5,
+      "image": "../images/f3.jpg",
+      "name": "Flower Orchid Purple",
+      "rating": 3.0,
+      "price": 70.00,
+      "oldPrice": 80.00,
+      "onSale": false,
+      "addToCartLink": "./addToCard.html"
+    },
+    {
+      "id": 6,
+      "image": "../images/f6.jpg",
+      "name": "Flower Sunflower",
+      "rating": 4.0,
+      "price": 35.00,
+      "oldPrice": 45.00,
+      "onSale": true,
+      "addToCartLink": "./addToCard.html"
+    },
+    {
+      "id": 7,
+      "image": "../images/f8-removebg-preview.png",
+      "name": "Flower Carnation Pink",
+      "rating": 4.5,
+      "price": 40.00,
+      "oldPrice": 50.00,
+      "onSale": true,
+      "addToCartLink": "./addToCard.html"
+    },
+    {
+      "id": 8,
+      "image": "../images/f9-removebg-preview.png",
+      "name": "Flower Violet",
+      "rating": 3.5,
+      "price": 55.00,
+      "oldPrice": 65.00,
+      "onSale": true,
+      "addToCartLink": "./addToCard.html"
+    },
+    {
+      "id": 9,
+      "image": "../images/f2.jpg",
+      "name": "Flower Poppy Red",
+      "rating": 4.0,
+      "price": 60.00,
+      "oldPrice": 70.00,
+      "onSale": true,
+      "addToCartLink": "./addToCard.html"
+    },
+    {
+      "id": 10,
+      "image": "../images/f4.jpg",
+      "name": "Flower Dahlia White",
+      "rating": 5.0,
+      "price": 85.00,
+      "oldPrice": 95.00,
+      "onSale": false,
+      "addToCartLink": "./addToCard.html"
+    },
+    {
+      "id": 11,
+      "image": "../images/f6.jpg",
+      "name": "Flower Hydrangea Blue",
+      "rating": 4.5,
+      "price": 75.00,
+      "oldPrice": 85.00,
+      "onSale": false,
+      "addToCartLink": "./addToCard.html"
+    },
+    {
+      "id": 12,
+      "image": "../images/f2.jpg",
+      "name": "Flower Marigold Yellow",
+      "rating": 3.0,
+      "price": 30.00,
+      "oldPrice": 40.00,
+      "onSale": true,
+      "addToCartLink": "./addToCard.html"
+    }
+  ]
+}
