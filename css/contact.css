@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+.sec div img{
+   height: 270px;
+}
+.log{
+    font-size: 40px;
+    font-weight:bold;
+}
+.item{
+    display: flex;
+    margin-top: 2%;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cards{
+    border: 1px solid rgb(206, 190, 190);
+    margin: 10px;
+    width: 420px;
+    height: 300px;
+    padding: 20px 60px;
+    border-radius: 0;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+.ico{
+    border: 1px solid #E72463;
+    color: #E72463;
+    background-color: white;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    position: relative;
+}
+.ico i{
+    margin-top: 25px;
+    vertical-align: middle;
+    text-align: center;
+    
+}
+/* .cards:hover{
+    background-color: #d63384;
+    color: white;
+} */
+
+.item h4{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 90;
+    
+}
+
+.item p{
+    margin-top: 20px;
+    color: #3f3f3f;
+    letter-spacing: 0.5px;
+
+}
+
+.get{
+    margin: 30px  4% 30px 3%;    
+    }
+.get h2{
+    margin-bottom: 20px;
+    
+}
+
+.get form input{
+
+    width: 100%;
+    padding: 25px;
+    margin-bottom: 30px;
+    background-color: #f8f9fa;
+    border: none;
+}
+.get form input:not(.email){
+    margin-right: 30px;
+
+}
+.two{
+    display: flex;
+}
+.big input[type=text]{
+    height: 120px;
+    padding-bottom: 70px;
+}
+button{
+    margin-left: 10px;
+    border-radius: 0;
+}
+

@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+.Login .p2{
+    font-family: 'Great Vibes', cursive;
+    font-size: 1.5rem;
+    color: #d63384;;
+    margin: 20px;
+}
+
+.Login .Create{
+    font-size: 20px;
+    display: block;
+    color: #000000;
+    margin-top:-10px;
+    margin-left: 40%;
+}
+.Login  a{
+    text-decoration: none;
+    color: #d63384;
+}
+.Login a:hover{
+    color: #d63384;
+}
+
+.Login .container{
+    height: 500px !important;
+}

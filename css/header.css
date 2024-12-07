@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 10% 20px 10%;
+/*  height:100px;
+    width:100%;
+    background-color:white;
+    position:fixed;
+    transition:0.6s;
+    z-index:100000; */
+
+}
+/* nav.sticky{
+    padding:5px 100px;
+    background:pink;
+} */
+.logo{
+    color: black;
+    font-size: 32px;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+}
+nav a span{
+    color: #d63384;
+
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 19px;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+/*     transition:0.6s; */
+}
+/* nav .sticky ul li a{
+    color:aqua;
+} */
+nav ul li a:hover{
+    color:#d63384;
+}
+.icons{
+    margin-right: -100px;
+}
+.icons a{
+    color: black;
+    justify-content: space-between;
+    padding: 10px;
+    
+    text-decoration: none;
+    font-size: 17px;
+    
+}
+.icons a ul{
+    list-style : none  ;
+    margin: 5px;
+    padding: 0px;
+    background-color: #f6f6f6;
+    position: absolute;
+    right: 0 ;
+    min-width: 200px;
+    top: calc(100% +10px);
+    display: none;
+}
+.icons a:hover ul{
+    display: block;
+    z-index: 2;
+}
+.icons a ul li{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+    transition: 0.3s;
+    font-family: "Poppins", sans-serif;
+
+}
+.icons a ul li:hover{
+    padding-left: 25px;
+}
+.icons a ul li:not(:last-child){
+    border-bottom: 1px solid #DDD;
+
+}
+.icons a:hover{
+    color: #d63384;
+}
+
+/* drop down css */
+.sub-menu-wrap{
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    width: 300px;
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 0.5s;
+    z-index: 100000;
+    
+}
+.sub-menu-wrap.open-menu{
+    max-height: 400px;
+}
+
+.sub-menu{
+    background: white;
+    /* padding: 20px; */
+    margin: 10px;
+    height: 400px;
+}
+.user-info{
+    display: flex;
+    align-items: center;
+
+}
+.user-info a{
+    /* border: 1px solid black; */
+    width: 170px;
+    font-size: 15px;
+    cursor: pointer;
+    
+}
+
+.user-info img{
+    border: 1px solid rgb(53, 49, 49);
+    width: 60px;
+    border-radius: 10px;
+    margin-left: 6px;
+    margin-top: 20px;
+    
+    
+}
+.kk{
+    margin-top: 60px;
+    margin-left: -160px;
+}
+.kk span{
+    color: #E72463;
+}
+
+/* .user-info hr{
+    height: 2px;
+    color: black;
+    margin-top: 10px;
+} */
+hr{
+    color: #3f3f3f;
+}
+
+.T{
+
+    margin: 8px 8px;
+    width: 50px;
+    height: 40px;
+    padding: 10px;
+
+}
+.sub-menu .price{
+
+    margin-left: 200px;
+    margin-top: -56px;
+    height: 60px;
+    padding: 19px;
+
+
+}
+/* .save{
+    display: flex;
+    
+    justify-content: space-between;
+    margin-top: 18px;
+    
+} */
+/* .butt{
+    border: 1px solid black;
+    margin-left: 10px;
+    width: 80px;
+    background-color: black;
+    border-radius: 10px;
+    
+
+
+}
+.ton{
+    border: 1px solid black;
+    margin-right: 20px;
+    background-color: black;
+    border-radius: 10px;
+    
+} */
+
+.save .button-zainab-1 ,
+.save .button-zainab-2{
+    width: 100px;
+    height: 40px;
+    background-color: #E72463;
+    margin: 15px;
+    color: white;
+    border: none;
+}
+
+.save .button-zainab-1:hover,
+.save .button-zainab-2:hover{
+    background-color: #000000;
+    cursor: pointer;
+}

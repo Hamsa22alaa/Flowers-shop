@@ -1,0 +1,430 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+body{
+    line-height: 1.6;
+    font-weight: 400;
+    color: #484848;
+    scroll-behavior: smooth;
+    font-size: 14px;
+}
+*{
+    font-family: "Poppins", sans-serif;
+
+}
+.sec div img{
+    height: 270px;
+    opacity: 0.7;
+
+ }
+
+.log{
+    font-family: "Great Vibes", cursive;
+    font-size: 40px;
+    font-weight: bold;
+}
+.content p{
+    font-family: "Poppins", sans-serif;
+}
+.content a{
+    font-family: "Poppins", sans-serif;
+
+}
+.collection{
+    width: 100%;
+}
+
+.collection .collection-container 
+{
+    padding: 30px;
+    margin: 0 auto;
+}
+
+
+.collection .row-1, 
+.collection .row-2 {
+    height: 400px;
+    display: flex;
+    margin: 70px auto;
+}
+
+.collection .row-1 .col-1, 
+.collection .row-1 .col-2, 
+.collection .row-2 .col-2,
+.collection .row-2 .col-1 {
+    width: 50%;
+    height: 100%;
+    margin: 10px;
+}
+
+.collection .row-1 .col-1 ,
+.collection .row-2 .col-1{
+    padding: 70px 20px;
+    line-height: 1.7;
+}
+
+
+.collection .row-1 .col-2 ,
+.collection .row-2 .col-2 
+{
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.collection .row-2 .col-2:hover ,
+.collection .row-1 .col-2:hover
+{
+    transition: 0.2s;
+    filter: brightness(0.95);
+    cursor: pointer;
+    transform: scale(1.01);
+}
+
+.collection .row-1 .col-2 {
+    background-image: url("../images/collection/1-1.jpg");
+}
+
+.collection .row-2 .col-2 {
+    background-image: url("../images/collection/1-2.jpg");
+}
+
+.collection .small-text{
+    color: var(--pink-color);
+    font-family: "Great Vibes", cursive;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.collection h2{
+    color: var(--black-color);
+   
+    text-transform: uppercase;
+    font-size: 36px;
+    font-family: "Josefin Slab", serif;
+    font-weight: 700;
+
+}
+.collection .content{
+    color: #414040 !important;
+    font-size: 16px !important;
+    font-family: "Poppins", sans-serif;
+
+}
+.collection .btn 
+{
+   
+    background: linear-gradient(to right, black,  #d63384);
+    background-size: 350% 100%;
+    border: none;
+    border-radius: 0;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    font-size: 30px;
+    font-weight: 500;
+    width: 180px;
+    cursor: pointer;
+    margin-top: 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition: background-position 2s ease;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    margin-left: -1px;
+
+
+}
+.collection .btn:hover 
+{
+    background-position: -100% 0;
+
+}
+.story{
+    background-color:#f8f9fa ;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.story h2{
+    padding-top: 40px;
+    font-family: "Great Vibes", cursive;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: #d63384;
+    
+}
+.story h1{
+    font-size: 80px;
+    font-family: "Josefin Slab", serif;
+    font-weight: 600;
+    margin-bottom: 10px;
+
+}
+.story div{
+
+    margin-left: 30%;
+    margin-bottom: 40px;
+    width: 40%;
+    color: black;
+    font-size: 18px;
+    line-height: 30px;
+}
+.story p strong {
+    color: #000000;
+    display: block;
+    font-size: 23px;
+    font-weight: 520;
+    line-height: 36px;
+    margin-bottom: 35px;
+    font-family: "Poppins", sans-serif;
+}
+.story p{
+    font-family: "Poppins", sans-serif;
+    color: #414040;
+    margin: auto;    
+    width: 50%;
+    line-height: 30px;
+    
+}
+.team{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    height: 800px;
+}
+.team .team-container .text {
+    text-align: center;
+    margin-bottom: 50px;
+    
+}
+.team .team-container .text h2{
+    color: #d63384;
+    font-family: "Great Vibes", cursive;
+    font-size: 30px;
+    font-weight: 700;
+}
+.team .team-container .text p{
+    font-size: 28px;
+    font-family: "Poppins", sans-serif;
+    color: #010101;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+.members{
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   margin: auto;
+   height: 600px;
+}
+.member-image{
+    position: relative;
+    display: flex;
+}
+.member .member-image img{
+    opacity: 100;
+    width: 400px;
+}
+
+.social{
+    position: absolute;
+    background-color:#E72463;
+    width: 90%;
+    top: 420px;
+    padding: 15px;
+    left: 6%;
+    display: none;
+}
+
+.member-image .social i{
+    margin: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+.member{
+    text-align: center;
+    height: 600px;
+}
+.member .member-info h5{
+    font-family: "Poppins", sans-serif;
+    color: #000000;
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    line-height: 1;
+    margin-top: 20px;
+}
+.member .member-info p{
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+}
+
+
+.wrapper-container{
+    background-color: #F8F9FA;
+    padding: 40px 0;
+}
+.wrapper{
+    padding: 35px;
+    position: relative;
+    overflow-x: hidden;
+    background:#F8F9FA;
+    border-radius: 13px;
+}
+
+.wrapper .icon {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    background-color:#F8F9FA;
+  }
+  .icon:first-child {
+    left: 0;
+    display: none;
+    background: linear-gradient(90deg, #F8F9FA 70%, transparent);
+  }
+  .icon:last-child {
+    right: 0;
+    justify-content: flex-end;
+    background: linear-gradient(-90deg, #F8F9FA 70%, transparent);
+  }
+.icon i {
+    width: 55px;
+    height: 55px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 55px;
+    border-radius: 50%;
+}
+.icon i:hover {
+     color: #E72463; 
+}
+.icon:first-child i {
+    margin-left: 15px;
+} 
+.icon:last-child i {
+    margin-right: 15px;
+}   
+  .wrapper .tabs-box {
+    display: flex;
+    gap: 12px;
+    list-style: none;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    background-color: #F8F9FA;
+  }
+  .tabs-box.dragging {
+    scroll-behavior: auto;
+    cursor: grab;
+  }
+  .tabs-box .tab {
+    cursor: pointer;
+    font-size: 1.18rem;
+    white-space: nowrap;
+    padding: 13px 20px;
+    border-radius: 30px;
+  } 
+  .tabs-box .tab img{
+    width: 250px;
+    opacity: 100;
+  }   
+
+  .tabs-box.dragging .tab {
+    user-select: none;
+    pointer-events: none;
+  }
+  .tabs-box .tab.active{
+    color: #fff;
+    border-color: transparent;
+  } 
+.new{
+    margin-top: 78px;
+    padding: 0 50px 78px 50px;
+}  
+.new-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.new-container .new-text{
+    width: 50%;
+}
+.new-container .new-text h3{
+    font-family: "Josefin Slab", serif;
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 0px;
+    color: #000000;
+}
+.new-container .new-text p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+
+}
+.new-container .new-form{
+ display: flex;
+ flex-wrap: wrap;
+ margin: auto;
+ width: 50%;
+}
+.new-container .new-form input{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #dddddd;
+    color: #555555;
+    font-size: 14px;
+    height: 48px;
+    line-height: 48px;
+    max-width: 100%;
+    padding: 0 10px;
+    text-align: left;
+    border-radius: 0px;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    font-weight: 400;
+    appearance: none;
+    font-family: "Poppins", sans-serif;
+    width:400px ;
+
+}
+.new-container .new-form button{
+    background: #555555;
+    border: none;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 500;
+    height: 48px;
+    line-height: 48px;
+    cursor: pointer;
+    max-width: 100%;
+    padding: 0 0;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    font-family: "Poppins", sans-serif;
+    width: 150px;
+    border-radius: 0;
+    margin-left: -29px;
+}
+
+.new-container .new-form button:hover{
+    background-color: #d63384;
+}

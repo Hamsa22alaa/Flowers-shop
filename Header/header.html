@@ -1,0 +1,144 @@
+<header>
+    <nav>
+        <a href="#" class="logo"><b>Flo<span>Sun</span></b></a>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+        <div class="icons">
+            <a href="#" class="fa-solid fa-cart-shopping" onclick="toggleMenu()"></a>
+		<div class="sub-menu-wrap" id="subMenu">
+                <div class="sub-menu">
+                    <div class="user-info">
+                        <img src="../images/f5.jpg">
+                        <a>Odio tortor consequat</a><br>
+                        <div class="kk"><p>1* <span>$98.00</span></p></div>
+
+                    </div>
+                    <div class="user-info">
+                        <img src="../images/f1.jpg">
+                        <a>Odio tortor consequat</a><br>
+                        <div class="kk"><p>1* <span>$98.00</span></p></div>
+
+                    </div>
+                    <div class="user-info">
+                        <img src="../images/f9.jpg">
+                        <a>Odio tortor consequat</a><br>
+                        <div class="kk"><p>1* <span>$98.00</span></p></div>
+
+                    </div>
+                    <hr>
+                    <p class="T"> Total: </p>
+                    <p class="price"> $166.00</p>
+                    <hr>
+
+                <div class="save">
+                    <div class="butt">
+                    <button type="submit">View cart</button>
+                    
+                    </div>
+                    <div class="ton">
+                        <button type="submit">Checkout</button>
+                    </div>
+                </div>
+
+                </div>
+
+            </div>
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+		
+            <a href="#" class="fa-solid fa-magnifying-glass"></a>
+            <a href="#" class="fa-solid fa-bars"></a>
+        </div>
+    </nav>
+</header>
+<style>
+    *{
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+    header{	
+		width: 100%;
+		font-family: 'Akshar', sans-serif;
+		font-size: 24px;
+		display: flex;
+		justify-content: space-between;
+		margin-top: 30px;
+		height: 50px;
+	}
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 30px 10% 20px 10%;
+        height: 100px;
+    }
+    .logo{
+        color: black;
+        font-size: 32px;
+        text-decoration: none;
+        
+    }
+    span{
+        color: #d63384;
+    }
+
+    nav ul li {
+        list-style-type: none;
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+    nav ul li a{
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    nav ul li a:hover{
+        color:#d63384;
+    }
+    .icons a{
+        color: black;
+        justify-content: space-between;
+        padding: 10px;
+        text-decoration: none;
+    }
+    .icons a:hover{
+        color: #d63384;
+    }
+</style>
+
+
+ <script>
+    let subMenu=document.getElementById("subMenu");
+    function toggleMenu(){
+        subMenu.classList.toggle("open-menu");
+    }
+
+<!-- <script type="text/javascript">
+    window.addEventListener("scroll",function(){
+        var nav=document.querySelector("nav");
+        nav.classList.toggle("sticky", window.scrollY > 0);
+    })
+    
+</script> -->

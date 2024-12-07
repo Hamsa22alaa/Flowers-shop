@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+.sec .content p{
+    margin-top: 20px;
+}
+.content{
+    color: black;
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+}
+.sec div img{
+    height: 270px;
+    width: 100%;
+    opacity: 0.7;
+ }
+
+.log{
+    font-family: "Great Vibes", cursive;
+    font-size: 40px;
+    font-weight: bold;
+}
+.log b{
+    font-family: "Grey Qo",cursive;
+    font-style: italic;
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+.content p a{
+    text-decoration: none;
+    color: black;
+
+}
+.content p a:hover{
+    color: #d63384;
+}
+#table{
+    margin: 70px auto 20px auto;
+    width: 90%;
+}
+
+#table table ,#table table th , #table table td{
+    border: 1px solid #eceff8;
+    border-collapse: collapse;
+
+}
+#table table th:not(.product , .quantity) {
+    width: 200px;
+    padding: 15px 20px;
+    font-weight:bolder;
+    font-size: 18px;
+}
+.product , .quantity{
+    width: 240px;
+    padding: 15px 20px;
+    font-weight:bolder;
+    font-size: 18px;
+
+}
+
+td{
+    padding: 15px 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    color: #333333;
+}
+#table table  td i:hover{
+    color: #E72463;
+}
+#table table  td:nth-child(2):hover{
+    color: #E72463;
+}
+img{
+    width: 177px;
+}
+.cupoun-container{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #eceff8;
+    padding: 15px 20px;
+}
+
+.cupoun{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.cupoun form{
+    display: flex;
+    width: 60%;
+
+}
+.cupoun form input{
+    border: 1px solid #eceff8;
+    font-size: 14px;
+    padding: 12px 10px;
+    outline: none;
+    margin-right: 15px;
+    width: 65%;
+    -webkit-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
+}
+.cupoun form input:focus{
+    border: 2px solid #E72463;
+}
+.cupoun form button{
+    background-color: #000000;
+    border: 0;
+    color: #ffffff;
+    font-size: 15px;
+    display:inline-block ;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    height: 45px;
+    letter-spacing: 0.025em;
+    line-height: 45px;
+    padding: 0 30px;
+    text-align: center;
+    vertical-align: middle;
+    width: auto;
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+
+}
+.cupoun form button:hover{
+    background-color: #E72463;
+}
+.cupoun-container .update button{
+    background-color: #000000;
+    border: 0;
+    color: #ffffff;
+    width: 50%;
+    font-size: 15px;
+    display:inline-block ;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    height: 45px;
+    letter-spacing: 0.025em;
+    line-height: 45px;
+    padding: 0 30px;
+    text-align: center;
+    vertical-align: middle;
+    width: auto;
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+.update{
+    width: 20%;
+}
+.cupoun-container .update button:hover{
+    background-color: #E72463;
+}
+.total-price{
+    width: 37%;
+    margin: 0px 5.1% 70px;
+
+}
+.carts-total{
+    padding: 15px 20px;
+
+    background-color: #F8F8F8;
+  
+}
+.total-price h3{
+    color: #333333;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 27px 15px 25px;
+    margin-bottom: 0;
+}
+.total-price table{
+    width: 100%;
+    border-collapse: collapse;
+
+}
+.total-price table tr td:not(.t) {
+text-align:start ;
+border-bottom: 2px solid #eceff8;
+font-size: 16px;
+font-weight: 100;
+
+}
+.total-price table tr td:nth-child(2) {
+    text-align:end ;
+
+}
+.t{
+    color: #62d2a2;
+    font-weight:bolder;
+    font-size:large;
+}
+.check{
+    width: 100%;
+    padding: 15px 20px;
+    background-color: #000000;
+    color: white;
+    font-size: 18px;
+    border: 0;
+}
+.check:hover{
+    background-color: #E72463;
+}
+
+/*<td>
+                    <div class="quantity">
+                        <div class="minus"></div>
+                        <div class="counter"></div>
+                        <div class="plus"></div>
+                    </div>
+</td>*/
+/*counter*/
+td .quantity{
+    display: flex;
+    justify-content: center;
+    transition: 0.4s;
+}
+td .quantity .minus:hover , td .quantity .plus:hover{
+    background-color: #E72463;
+    color: white;
+}
+td .quantity .minus{
+    border: 1px solid #c9c9c9;
+    width:20% ;
+    height: 50px;
+    color: black;
+    font-size: 30px;
+}
+td .quantity .counter{
+    border: 1px solid #c9c9c9;
+    width:40% ;
+    height: 50px;
+    color: black;
+    font-size: 20px;
+    padding-top: 10px;
+}
+td .quantity .plus{
+    border: 1px solid #c9c9c9;
+    width:20% ;
+    height: 50px;
+    color: black;
+    font-size: 30px;
+}
+
+
+
